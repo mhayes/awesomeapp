@@ -1,4 +1,7 @@
 Awesomeapp::Application.routes.draw do
+  get "index/home"
+  root :to => "index#home"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
